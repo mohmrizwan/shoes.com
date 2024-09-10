@@ -1,0 +1,710 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    background-image: url("bg1.png");
+    height: 700px;
+    background-position: center;
+    background-size: cover;
+    width:100%;
+}
+#home{
+    display: flex;
+    justify-content: space-around;
+    height: 50px;
+    background-color: rgb(226, 216, 216);
+    align-items: center;
+    position: relative;
+    box-shadow: 0px 0px 7px black;
+    position: static;
+   
+   
+}
+#logos{
+    color:#c72092;
+    font-size: 35px;
+    cursor: pointer;
+    
+}
+.nav ul{
+    display: flex;
+    gap:25px;
+    align-items: center;
+
+    
+    
+}
+
+.nav a li {
+    list-style: none;
+
+}
+.nav a{
+    color:rgb(0, 0, 0);
+    text-decoration: none;
+    font-size: 20px;
+}
+.nav a:hover{
+    color:#c72092
+}
+.social-media{
+    display: flex;
+    gap:15px;
+    font-size: 20px;
+}
+.scl a:hover{
+    color:#c72092
+}
+.scl a{
+    color:black;
+}
+.bars{
+    display: none;
+}
+section{
+    display: flex;
+}
+#nike{
+    background: linear-gradient(to right, #c72092, #6c14d0);
+    font-size:90px;
+    line-height: 70px;
+   -webkit-background-clip:text;
+    -webkit-text-fill-color: transparent;
+
+
+    font-family: "Kalam", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+    
+
+#logos span{
+    color: #6c14d0;
+    text-decoration: #6c14d0 underline;
+}
+.sect-1{
+    margin-top: 150px;
+    margin-left: 100px;
+   animation:  slideRight 1s ease  forwards ;
+}
+.sect-1 p{
+    background: linear-gradient(to right, #c72092, #6c14d0);
+    font-size:45px;
+    line-height: 70px;
+   -webkit-background-clip:text;
+    -webkit-text-fill-color: transparent;
+
+}
+.sect-2{
+    animation: slideLeft 1s ease forwards;
+}
+.sect-2 img{
+    width:550px;
+   
+  
+    
+   
+    
+}
+
+   #menu-list{
+    z-index:1;
+    
+}
+.button button{
+    background: linear-gradient(to right, #c72092, #6c14d0);
+    width:100px;
+    height: 30px;
+    margin-top: 60px;
+    border-radius:40px;
+}
+
+    
+.card{
+    width:220px;
+    height: 400px;
+    border: 2px solid #c72092 ;
+    box-shadow: 2px 2px 2px #c72092;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    animation: cards 1s ease forwards;
+
+    border-radius: 10px;
+}
+.cards{
+   display: flex;
+    gap:70px;
+    margin-top: 40px;
+}
+#products{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 40px;
+   
+}
+.prod h2{
+     background: linear-gradient(to right, #c72092, #6c14d0);
+    font-size:45px;
+    -webkit-background-clip:text;
+    -webkit-text-fill-color: transparent;
+}
+.feedback{
+    display: flex;flex-direction: column;
+    margin-top: 10px;
+    
+}
+.feedback i{
+    margin-top: 8px;
+    margin-left: 5px;
+    display: none;
+}
+
+.feedback i:hover {
+    color:#c72092;
+    display: inline;
+}
+.card img{
+    width: 100px;
+    height: 100px;
+}
+.card b{
+    margin-top: 25px;
+    font-size: 20px;
+}
+.card p{
+    font-size: 14px;
+    margin-top: 10px;
+}
+.card button{
+    background: linear-gradient(to right, #c72092, #6c14d0);
+    width:80px ;
+    margin-top: 19px;
+    height: 30px;
+    border-radius: 10px;
+}
+
+.product-container {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 20px;
+  }
+  .sml{
+    margin-right: 20px;
+    display: flex;
+    flex-direction:column ;
+  }
+  .small-images {
+    box-shadow: 0px 0px 10px #c72092;
+    border:2px solid #c72092;
+    height: 80px;
+    width: 80px;
+    margin-top: 20px;
+    border-radius: 20px;
+  }
+  
+  .small-images img {
+    width: 40px;
+    margin-bottom: 10px;
+    cursor: pointer;
+    margin-top: 22px;
+    margin-left:18px;
+
+    
+  }
+  .small-images:hover{
+    background-color:#000 ;
+  } 
+  .main-image img {
+   width:400px;
+   border: 2px solid #c72092;
+   border-radius: 20px;
+   box-shadow: 0px 0px 10px #c72092;
+   
+  }
+  .main-image{
+    margin-top: 20px;
+   
+  }
+
+  .web-about{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    font-size:45px
+
+  }
+  .web-about p{
+    color:black
+  }
+  .web-about span{
+    background: linear-gradient(to right, #c72092, #6c14d0);
+
+    -webkit-background-clip:text;
+    -webkit-text-fill-color: transparent;
+  } 
+  .para p{
+    font-size: 14px;
+    
+  }
+  .para{
+    border: 2px solid #c72092;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius:20px ;
+    box-shadow: 0px 0px 10px #c72092;
+    width:700px ;
+    margin-top: 20px;
+  }
+  .btn button{
+    
+    background: linear-gradient(to right, #c72092, #6c14d0);
+    width:100px;
+    height: 30px;
+    margin-top: 60px;
+    border-radius:10px;
+    font-size:13px;
+    box-shadow: 0px 0px 10px #c72092;
+    cursor: pointer;
+  }
+   .btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   }
+   .rev{
+    width:22%;
+    border:2px solid #000000;
+    height:200px;
+    box-shadow: 0px 0px 8px #000000;
+    border-radius: 10px;
+   
+   }
+   .main-review{
+    display: flex;
+    justify-content: center;
+    margin-top: 14px;
+    gap:20px;
+    
+}
+   #review{
+    margin-top: 20px;
+   }
+   .customer-review{
+    display: flex;
+    justify-content: center;
+   }
+   .customer-review p{
+    font-size: 45px;
+   }
+   .customer-review span{
+    background: linear-gradient(to right, #c72092, #6c14d0);
+
+    -webkit-background-clip:text;
+    -webkit-text-fill-color: transparent;
+   }
+   .names img{
+    width:50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-left: 15px;
+   }
+   .names{
+    display: flex;
+    margin-top: 10px;
+   }
+   .names p{
+    margin-top: px;
+    margin-left: 14px;
+   }
+   .stars i{
+    
+    color:orange;
+    font-size: 14px;
+   }
+   .stars{
+    margin-left: 75px;
+    margin-top:-30px;
+   }
+ .react{
+    display: flex;
+    justify-content: center;
+    margin-top: 35px;
+ }
+ #review{
+    margin-top: 30px;
+ }
+ .bgc{
+    background-image: url('loging_bg.png');
+   width:100%;
+    height: 600px;
+    background-position: center;
+    background-size: cover;
+    margin-top: 20px;
+    display: flex;
+ }
+ .bg-img img{
+   width: 500px;
+   height: 500px;
+   margin-top: 40px;
+   margin-left: 90px;
+ }
+ .form{
+    
+    margin-left: 280px;
+    margin-top: 200px;
+ }
+ h3{
+    color:black;
+    font-size: 35px;
+    
+    font-family: "Kalam", cursive;
+    font-weight: 400;
+    font-style: normal;
+ }
+ .user{
+    font-size: 20px;
+    background: linear-gradient(to right, #c72092, #6c14d0);
+
+    -webkit-background-clip:text;
+    -webkit-text-fill-color: transparent;
+ }
+ #name, #pass {
+    width:230px;
+    height: 25px;
+    border:2px solid #c72092;
+    border-radius:10px ;
+    padding: 10px;
+    background-color: transparent;
+ }
+
+    #submit{
+        width:80px;
+        height:25px;
+        margin-left: 70px;
+        margin-top: 19px;
+        background: linear-gradient(to right, #c72092 , #6c14d0);
+        border: none;
+        border-radius: 10px;
+    }
+    .foots{
+        display: flex;
+        justify-content: space-around;
+    }
+    footer{
+        margin-top: 50px;
+    }
+    .foot1 i{
+       margin-top:  10px;
+    }
+    .foot2 p{
+        margin-top: 8px;
+    }
+    .scl-media{
+        margin-top: 10px;
+        
+    }
+    .scl-media i{
+        cursor: pointer;
+        margin-left: 8px;;
+    }
+    .scl-media i:hover{
+        color:#c72092
+    }
+    .foot1 b{
+        color:#6c14d0   
+     }
+    .foot2 b{
+        color:#6c14d0   
+     }
+    .foot3 b{
+        color:#6c14d0   
+     }
+    .foot4 i{
+        color:#000000   
+     }
+    .foot1 p{
+        cursor: pointer; 
+     }
+    .foot2 p{
+        cursor: pointer;  
+     }
+    .foot3 p{
+        cursor: pointer;  
+     }
+    .foot1 p:hover{
+        color:#c72092
+     }
+    .foot2 p:hover{
+        color:#c72092
+     }
+    .foot3 p:hover{
+        color:#c72092
+     }
+@media only screen and (max-width:480px) {
+    .nav ul{
+        
+        position: absolute;
+        margin-top: 42px;
+        left:0;
+        display: flex;
+        margin-left:90px;
+       font-size:14px;
+       align-items: center;
+        
+
+        background-color: rgb(226, 216, 216);
+        width: 100%;
+    }
+    .nav ul a{
+        font-size: 12px;
+        display: flex;
+        
+    }
+   
+    #menu-list{
+        transition: all 1s ease-in-out;
+       
+    }
+    #products{
+        
+        margin-top: -500px;
+       }
+   section{
+    display: flex;
+    flex-direction: column;
+   }
+   .sect-2 img{
+    display: none;
+   }
+  
+   
+   .cards{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   }
+   header{
+    background-image: none;
+   }
+   .web-about{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    font-size:45px
+
+  }
+  .product-container {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    align-items: center;
+  }
+  .para{
+    border-radius: 0px;
+    width:auto;
+
+ 
+  }
+  .main-review{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .foots{
+    display: flex;
+    flex-direction: column;
+  }
+  .rev{
+    width:50%;
+    border:2px solid #000000;
+    height:200px;
+    box-shadow: 0px 0px 8px #000000;
+   
+   }
+   .bgc{
+    background-image: url('loging_bg.png');
+   width:100%;
+    height: 600px;
+    background-position: center;
+    background-size: cover;
+    margin-top: 20px;
+    display: flex;
+ }
+ .form{
+    
+    margin-left: 140px;
+    margin-top: 200px;
+ }
+}
+
+   
+@media only screen and (max-width:768px) {
+    /* .nav ul{
+        position: absolute;
+        margin-top: 42px;
+        left:0;
+        display: flex;
+        margin-left: 40px;
+       
+        
+
+        background-color: rgb(226, 216, 216);
+        width: 100%;
+    } 
+        .product-container {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+  }*/
+  .bgc{
+    background-image: url('loging_bg.png');
+   width:100%;
+    height: 600px;
+    background-position: center;
+    background-size: cover;
+    margin-top: 20px;
+    display: flex;
+ }
+  .bg-img img{
+    width: 500px;
+    height: 500px;
+    margin-top: 40px;
+    margin-left: 90px;
+    display: none;
+  }
+  .rev{
+    width:60%;
+    border:2px solid #000000;
+    height:200px;
+    box-shadow: 0px 0px 8px #000000;
+   
+   }
+  .main-review{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .foots{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .product-container {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    align-items: center;
+  }
+    .web-about{
+        display: flex;
+        justify-content: center;
+        margin-top: 50px;
+        font-size:45px
+    
+      }
+    #menu-list{
+        transition: all 1s ease-in-out;
+       
+    }
+   
+    header{
+        background-image: url("bg1.pnnng");
+        height: 700px;
+        background-position: center;
+        background-size: cover;
+        width:100%;
+    }
+   section{
+    display: flex;
+    flex-direction: column-reverse;
+   }
+   .sect-2 img{
+    width:450px;
+    margin-top: 120px;
+    margin-left: 180px;
+   }
+   #products{
+    margin-top: 500px;
+   }
+   .cards{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   }
+   .card{
+    width:400px;
+    height: 450px;
+    border: 2px solid #c72092 ;
+    box-shadow: 2px 2px 2px #c72092;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    animation: cards 1s ease forwards;
+
+    border-radius: 10px;
+}
+.para{
+    border-radius: 0px;
+ 
+  }
+.card img{
+    width: 150px;
+    height: 150px;
+}
+.card b{
+    margin-top: 35px;
+    font-size: 25px;
+}
+.card p{
+    font-size: 24px;
+    margin-top: 20px;
+}
+.card button{
+    background: linear-gradient(to right, #c72092, #6c14d0);
+    width:120px ;
+    margin-top: 19px;
+    height: 40px;
+    border-radius: 10px;
+}
+}
+
+@keyframes slideRight{
+    0%{
+        transform:translateX(-100px) ;
+        opacity: 0;
+    }
+    100%{
+        transform:translateX(0) ;
+        opacity: 1;
+    }
+    
+}
+@keyframes cards{
+    0%{
+        transform:translateX(-100px) ;
+        opacity: 0;
+    }
+    100%{
+        transform:translateX(0) ;
+        opacity: 1;
+    }
+    
+}
+@keyframes slideLeft{
+    0%{
+        transform:translateX(100px) ;
+        opacity: 0;
+    }
+    100%{
+        transform:translateX(0) ;
+        opacity: 1;
+    }
+    
+}
